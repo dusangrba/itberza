@@ -1,0 +1,30 @@
+table, th, td, tr {
+  border: 1px solid white;
+}
+
+table{
+  margin-bottom: 20px;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+  padding: 5px;
+}
+
+a:hover {
+  text-decoration: underline;
+  background-color: goldenrod !important;
+  cursor: pointer;
+}
+
+a.add {
+  border: 1px solid white;
+  background-color: green;
+  color: black;
+}
+
+table a:not(.delete):not(.add) {
+  background-color: white;
+  color: #0c0c0c;
+}
